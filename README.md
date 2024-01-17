@@ -28,6 +28,8 @@ To get this project up and running on your local machine, follow these steps:
 
 3. **Product Representation**: All products displayed on the website are for representation purposes only.
 
+4. **Desktop Version**: During the development process, our primary focus was on optimizing the website for desktop usage. As such, we advise against accessing it via a mobile device, as the display may not be optimal. For the best user experience, we recommend testing the website on Chromium-based browsers, including but not limited to Google Chrome, Microsoft Edge and Opera.
+
 ## Demonstration
 
 A 'DEMO' directory containing illustrative images is included in the repository.
