@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    background: linear-gradient(to right, #303436, #121214, #303436);
+}
+
+div[name="main"] {
+    margin-top: 160px;
+}
+
+div[name="content"] {
+    display: inline-table;
+    text-align: left;
+    width: 85%;
+    min-width: 1074px;
+    min-height: 370px;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(to right, #f0f0f0, #f5f5f5, #f0f0f0);
+    border-radius: 25px;
+    margin-bottom: 10px;
+    padding-bottom: -10%;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23);
+}
+
+div[name='menuBar']{
+    margin-top: -160px;
+    position: fixed;
+    text-align: center;
+    left: 1%;
+    display: inline;
+    width: 95%;
+    min-width: 1200px;
+    padding: 20px;
+    height: 80px;
+    margin-bottom: 60px;
+    background: linear-gradient(to top, #3c4043, #202124);
+    border-radius: 25px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23);
+}
+
+div[name='pageNumbering']{
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top, #202124, #3c4043);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23);
+}
+
+h1, h2 {
+    color: #202124;
+}
+
+p {
+    font-size: 16px;
+    color: #202124;
+    text-align: justify;
+    text-justify: inter-word;
+    display: inline-table;
+    margin-top: -325px;
+    margin-right: 425px;
+}
+
+img[name="productPicture"] {
+    margin-top: -50px;
+    width: 370px;
+    height: 370px;
+    float: right;
+    border: 2px solid #c8a85c;
+    border-radius: 25px;
+}
+
+img[name="websiteLogo"]{
+    margin-top: -5px;
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: left;
+}
+
+img[name="bridgeLogo"]{
+    margin-top: -95px;
+    width: 280px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a[name="edit"] {
+    width: 62px;
+    display: block;
+    margin-top: -40px;
+    background-color: #f5f5f5;
+    color: #3c4043;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
+    transition: background-color 0.5s ease;
+}
+
+a:hover[name="edit"] {
+    background-color: #c8a85c;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
+    animation: pulse 1s infinite;
+}
+
+a[name="login"] {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    margin-top: -110px;
+    margin-right: 0;
+    margin-left: auto;
+    background-color: #f5f5f5;
+    color: #3c4043;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
+    transition: background-color 0.5s ease;
+}
+
+a[name="register"] {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-left: auto;
+    background-color: #f5f5f5;
+    color: #3c4043;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
+    transition: background-color 0.5s ease;
+}
+
+a:hover[name="login"] {
+    background-color: #c8a85c;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
+    animation: pulse 1s infinite;
+}
+
+a:hover[name="register"] {
+    background-color: #c8a85c;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
+    animation: pulse 1s infinite;
+}
+
+button {
+    background-color: #f5f5f5;
+    color: #3c4043;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
+    transition: background-color 0.5s ease;
+}
+
+button:disabled {
+    background-color: #bdbdbd;
+    cursor: not-allowed;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
+}
+
+button:hover {
+    background-color: #c8a85c;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
+    animation: pulse 1s infinite;
+}
+
+button:hover:disabled {
+    background-color: #bdbdbd;
+    cursor: not-allowed;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
+    animation: none;
+}
+
+form {
+    width: 50%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    display: inline-table;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.025); }
+    100% { transform: scale(1); }
+}
